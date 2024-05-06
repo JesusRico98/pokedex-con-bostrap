@@ -17,6 +17,7 @@ btneliminarp.disabled = true;
 btnguardar.addEventListener("click", function () {
     
   if (equipo.length < 7) {
+    listapokemon.innerHTML=``;  
     guardar();
     
   }
