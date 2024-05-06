@@ -44,7 +44,7 @@ btneliminarp.addEventListener("click", function () {
 
 btnhistorial.addEventListener('click',function(){
     
-     
+  listapokemon.innerHTML=``;  
     
   mostrarenpc();
   btneliminarp.disabled = false;
